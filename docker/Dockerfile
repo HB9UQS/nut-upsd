@@ -7,7 +7,7 @@ ARG BUILD_DATE
 # https://networkupstools.org/download.html
 ENV NUT_VERSION_RANGE="2.8"
 ENV NUT_VERSION="2.8.4"
-ENV NUT_SHA256="e4b4b0cbe7dd39ba9097be7f7d787bb2fffbe35df64dff53b5fe393d659c597d"
+ENV NUT_SHA256="a2fe55bc2d90b4a848d6ff8bac361e6d1c97f899a545219cad707d17a27ff127"
 
 ENV UPS_NAME="ups"
 ENV UPS_DESC="UPS"
