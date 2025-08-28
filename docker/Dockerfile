@@ -20,12 +20,12 @@ ENV ADMIN_PASSWORD=""
 ENV SHUTDOWN_CMD="echo 'System shutdown not configured!'"
 
 # Metadata
-LABEL org.label-schema.vendor="Sudo-Bot" \
-    org.label-schema.url="https://github.com/sudo-bot/nut-upsd#readme" \
+LABEL org.label-schema.vendor="HB9UQS" \
+    org.label-schema.url="https://github.com/hb9uqs/nut-upsd#readme" \
     org.label-schema.name="gh-deployer container" \
     org.label-schema.description="UPS daemon" \
     org.label-schema.version=${NUT_VERSION} \
-    org.label-schema.vcs-url="https://github.com/sudo-bot/nut-upsd.git" \
+    org.label-schema.vcs-url="https://github.com/hb9uqs/nut-upsd.git" \
     org.label-schema.vcs-ref=${VCS_REF} \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.docker.schema-version="1.0"
