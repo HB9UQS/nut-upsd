@@ -46,7 +46,6 @@ RUN set -ex; \
         net-snmp \
         net-snmp-agent-libs \
         net-snmp-libs \
-        libsnmp-dev \
         net-snmp-dev \
         openssl-dev \
         nss-dev \
