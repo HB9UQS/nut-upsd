@@ -43,6 +43,8 @@ RUN set -ex; \
 	# build dependencies
 	apk add --update --no-cache --virtual .build-deps \
 		libusb-compat-dev \
+        libsnmp40 \
+        libsnmp-dev \
         net-snmp-dev \
         openssl-dev \
         nss-dev \
