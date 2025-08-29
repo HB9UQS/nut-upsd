@@ -17,6 +17,12 @@ cat >/etc/nut/ups.conf <<EOF
 	desc = "$UPS_DESC"
 	driver = $UPS_DRIVER
 	port = $UPS_PORT
+    snmp_version = v3
+    seclevel=authPriv
+    secName = $UPS_SECNAME
+    authPassword = $UPS_AUTHENTICATIONPASSPHRASE
+    privPassword = $UPS_PRIVATEPASSPHRASE
+    
 EOF
 else
     printf "Skipped ups.conf config"
