@@ -38,14 +38,12 @@ RUN set -ex; \
 	apk add --update  --no-cache \
 		openssh-client \
 		libusb-compat \
+        net-snmp-libs \
         nss \
 	; \
 	# build dependencies
 	apk add --update --no-cache --virtual .build-deps \
 		libusb-compat-dev \
-        net-snmp \
-        net-snmp-agent-libs \
-        net-snmp-libs \
         net-snmp-dev \
         openssl-dev \
         nss-dev \
