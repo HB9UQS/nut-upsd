@@ -1,8 +1,8 @@
 # Network UPS Tools server
 
-![Docker Image Size](https://img.shields.io/docker/image-size/botsudo/nut-upsd)
+![Docker Image Size](https://img.shields.io/docker/image-size/HB9UQS/nut-upsd)
 
-Docker image for Network UPS Tools server published on [Docker Hub](https://hub.docker.com/r/botsudo/nut-upsd), source on [GitHub](https://github.com/sudo-bot/nut-upsd).
+Docker image for Network UPS Tools server published on [Docker Hub](https://hub.docker.com/r/9uqs/nut-upsd), source on [GitHub](https://github.com/hb9uqs/nut-upsd).
 
 ## Usage
 
