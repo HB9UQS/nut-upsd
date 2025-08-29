@@ -17,11 +17,15 @@ cat >/etc/nut/ups.conf <<EOF
 	desc = "$UPS_DESC"
 	driver = $UPS_DRIVER
 	port = $UPS_PORT
-    snmp_version = v3
-    seclevel=authPriv
+    community = $UPS_COMMUNITY
+    snmp_version = $UPS_SNMPVERSION
+    seclevel=$UPS_SECLEVEL
     secName = $UPS_SECNAME
     authPassword = $UPS_AUTHENTICATIONPASSPHRASE
     privPassword = $UPS_PRIVATEPASSPHRASE
+    authProtocol = $UPS_AUTHPROTOCOL
+    privProtocol = $UPS_PRIVPROTOCOL
+    
     
 EOF
 else
