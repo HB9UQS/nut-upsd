@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.22.1
 
 # Metadata params
 ARG VCS_REF
